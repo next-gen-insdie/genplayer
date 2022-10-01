@@ -1,10 +1,10 @@
 var audio , playbtn , title , poster , artists , seekslider , seeking=false , seekto, currenttimetext , durationtimetext , playlist_status , dir , playlist , ext , agent , playlists_artists , repeat , random;
 
-dir = "/songs/";
+dir = "https://next-gen-inside.github.io/genplayer/songs/";
 playlist = ["1","2","3","4","5","6"]
 
 title =["Dancin' CG5 Remix", "Earth [NCS Release]", "On and On","Champions [NCS Release]","Invincible Part II (feat. Sendi Hoxha)","Memories"]
-poster=["/images/CG5.png","/images/2.jpg","/images/3.jpg","/images/4.png","/images/5.jpg","/images/6.png"]
+poster=["https://next-gen-inside.github.io/genplayer/images/CG5.png","https://next-gen-inside.github.io/genplayer/images/2.jpg","https://next-gen-inside.github.io/genplayer/images/3.jpg","https://next-gen-inside.github.io/genplayer/images/4.png","https://next-gen-inside.github.io/genplayer/images/5.jpg","https://next-gen-inside.github.io/genplayer/images/6.png"]
 artists=["CG5","lil Dicky","Daniel Levi","Elektronomia x Lunaar x Donna Tella","Deaf Kev","Maroon 5"]
 
 playlist_index = 0;
@@ -37,7 +37,6 @@ nextbtn.addEventListener("click",nextSong);
 prevbtn.addEventListener("click",prevSong);
 seekslider.addEventListener("mousedown" , function(event){ seeking=true; seek(event);});
 seekslider.addEventListener("mousemove",function(event){ seek(event);});
-//https://www.youtube.com/watch?v=2J6OZAq2XpQ&list=PL05mOkIwKb52JC3z4ixCpPPejjCYH3RJr
 
 seekslider.addEventListener("mouseup", function(){seeking=false;});
 
