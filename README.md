@@ -9,4 +9,4 @@ Link to site : https://next-gen-inside.github.io/genplayer/
 
 
 <img src="https://i.imgur.com/DzTcHVd.png" alt="Alt text" title="Next Gen Inside" width="100px">
-<p style="font-family:monospace;">A project under Next_Gen_Inside<p>
+<p style="font-family: serif;">A project under Next_Gen_Inside<p>
